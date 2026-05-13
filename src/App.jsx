@@ -38,7 +38,7 @@ function App() {
               <Route path="/about" element={<AboutMe />} />
               <Route path="/my-city" element={<MyCity />} />
               <Route path="/my-future" element={<MyFuture />} />
-              <Route path="/" element={<Navigate to="/about" />} />
+              <Route path="/*" element={<Navigate to="/about" />} />
             </Routes>
           </Container>
           <Footer />
